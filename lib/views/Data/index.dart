@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-class DataView extends StatefulWidget{
+class DataView extends StatefulWidget {
   @override
-  _DataViewState createState()=> _DataViewState();
+  _DataViewState createState() => _DataViewState();
 }
 
-class _DataViewState extends State<DataView>{
+class _DataViewState extends State<DataView> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -14,6 +14,6 @@ class _DataViewState extends State<DataView>{
           child: Text('This is Data view.'),
         ),
       ),
-    )
+    );
   }
 }
